@@ -4,3 +4,7 @@ def F(n): #name of the function
     elif n == 1: return 0
     else: return F(n-1)
 #endregion
+
+#region Print
+print(F(21))
+#endregion
